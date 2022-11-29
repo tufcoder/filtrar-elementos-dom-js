@@ -16,6 +16,14 @@ A aplicação deve conter:
   * Contém o texto "More" com referência ao `index.html`
   * Ao passar o mouse por cima a cor deve mudar para um tom claro de amarelo.
 
+## Ícones
+
+Utilizar a CDN do Phosphor Icons.
+
+```html
+<script src="https://unpkg.com/phosphor-icons"></script>
+```
+
 ## Cores
 
 * --white: #fff;
