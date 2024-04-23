@@ -7,9 +7,11 @@
 ## PREVIEW
 
 - Desktop
+
 ![Desktop](assets/images/desktop.png)
 
 - Mobile
+
 ![Mobile](assets/images/mobile.png)
 
 A aplicação deve conter:
