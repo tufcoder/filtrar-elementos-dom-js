@@ -1,7 +1,16 @@
 # Filtrando elementos no DOM com JS
 
-## PREVIEW
 [https://tuf-coder-filtrar-elementos-dom-js.netlify.app/](https://tuf-coder-filtrar-elementos-dom-js.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c78feb21-9726-45eb-8eb2-c88d1f0d3d10/deploy-status)](https://app.netlify.com/sites/tuf-coder-filtrar-elementos-dom-js/deploys)
+
+## PREVIEW
+
+- Desktop
+![Desktop](assets/images/desktop.png)
+
+- Mobile
+![Mobile](assets/images/mobile.png)
 
 A aplicação deve conter:
 

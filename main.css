@@ -1,21 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
-  --white: #fff;
+  --white: #FFF;
   --black: #000;
   --gray-100: rgb(235, 227, 227);
   --gray-300: rgb(80, 79, 79);
   --gray-500: rgb(32, 31, 31);
   --yellow-200: rgb(252, 208, 133);
   --yellow-400: rgb(255, 188, 72);
-}
-
-:focus {
-  outline: none;
 }
 
 body * {
@@ -49,14 +51,14 @@ body {
   gap: 8px;
   margin-top: 1rem;
   border-radius: 8px;
-  padding: 1rem;
   width: 70%;
   background-color: var(--gray-300);
 }
 
 .input-wrapper input {
+  width: 90%;
   border: 0;
-  width: calc(100% - 16px * 1.5);
+  padding: 1rem;
   font-size: 1rem;
   color: inherit;
   background-color: inherit;
@@ -91,7 +93,7 @@ body {
   gap: 8px;
 }
 
-.card-header .icon {
+.icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +101,8 @@ body {
   padding: 0.5rem;
   width: 2rem;
   height: 2rem;
-  font-size: 1.75rem; /* 28px */
+  /* 28px */
+  font-size: 1.75rem;
   color: var(--gray-500);
   background-color: var(--yellow-400);
 }
@@ -107,5 +110,13 @@ body {
 @media (max-width: 500px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+
+  .input-wrapper {
+    width: 100%;
+  }
+
+  .input-wrapper input {
+    width: 85%;
   }
 }
